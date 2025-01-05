@@ -10,6 +10,7 @@ const Navbar = () => {
         <li className='hover:text-violet-600 transition text-lg text-slate-950 md:text-white'><a href='#aboutMe'>About Me</a></li>
         <li className='hover:text-violet-600 transition text-lg text-slate-950 md:text-white'><a href="#skills">Skills</a></li>
         <li className='hover:text-violet-600 transition text-lg text-slate-950 md:text-white'><a href='#projects'>Projects</a></li>
+        <li className='hover:text-violet-600 transition text-lg text-slate-950 md:text-white'><a href='#contact'>Contact Me</a></li>
     </>
     return (
         <div>
