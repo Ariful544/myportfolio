@@ -36,7 +36,7 @@ const ContactMe = () => {
             </div>
             <div className='max-w-screen-lg mx-auto pt-10'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <div className='flex gap-6'>
+                    <div className='flex md:flex-row flex-col gap-6 w-full'>
                         <div className="form-control w-full">
                             <label className="label">
                                 <span className="label-text text-xl dark:text-white">Full Name</span>
