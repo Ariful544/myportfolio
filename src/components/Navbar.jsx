@@ -50,7 +50,7 @@ const Navbar = () => {
                             {theme === "light" ? <FaMoon title='dark mode' /> : <FaSun title='light mode' />}
                         </button>
                     </div>
-                    <a className="btn rounded-none px-6 text-slate-950 text-lg">Let's chat</a>
+                    <a target='_blank' href='https://discord.com/users/1256376627701485629' className="btn rounded-none px-6 text-slate-950 text-lg">Let's chat</a>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ const HeroSection = () => {
                 </div>
                 <p className='text-slate-600'>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 <div className='space-x-5'>
-                    <button className='btn border-none btn-lg text-xl hover:bg-violet-700 bg-violet-600 rounded-none text-white'><LuUserRound />Hire Me</button>
+                    <a target='_blank' href='https://github.com/Ariful544' className='btn border-none btn-lg text-xl hover:bg-violet-700 bg-violet-600 rounded-none text-white'><LuUserRound />Hire Me</a>
                     <a rel="noopener noreferrer" target="_blank" href='https://drive.google.com/file/d/1K3WdcjUBVa6WCWautl-KG0JgPCHXOp-6/view?usp=sharing' className='btn btn-outline btn-lg text-xl dark:hover:bg-white dark:hover:text-slate-950 hover:bg-slate-950 rounded-none text-slate-950 dark:text-white' download><GrNotes />Download CV</a>
                 </div>
             </motion.div>
