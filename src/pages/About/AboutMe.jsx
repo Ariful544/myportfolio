@@ -1,16 +1,16 @@
 import React from 'react';
-import { FaDiscord, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaDiscord, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiStartrek } from 'react-icons/si';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
     return (
         <motion.div id="aboutMe"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount:0.1 }}
-        transition={{ duration: 1,ease: "easeInOut", delay: 0.5 }}
-         className='max-w-screen-2xl min-h-[600px] px-10 space-y-8 py-20'>
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
+            className='max-w-screen-2xl min-h-[600px] px-10 space-y-8 py-20'>
             <div>
                 <button className='btn px-6 border-none text-lg hover:bg-violet-700 bg-violet-600 rounded-3xl text-white uppercase'><SiStartrek />About Me</button>
             </div>
@@ -40,9 +40,9 @@ const AboutMe = () => {
                 <div className='space-y-3'>
                     <p className='text-slate-500 text-lg font-semibold'>Social Media</p>
                     <div className='dark:text-white flex gap-6 text-slate-950'>
-                    <a className='text-xl text-blue-600' href=''><FaFacebook /></a>
-                    <a className='text-xl text-blue-600' href=''><FaDiscord /></a>
-                    <a className='text-xl text-blue-600' href=""><FaLinkedin /></a>
+                        <a className='text-2xl text-blue-600' target="_blank" href='https://www.facebook.com/profile.php?id=61572916888633'><FaFacebook /></a>
+                        <a className='text-2xl' target='_blank' href='https://github.com/Ariful544'><FaGithub /></a>
+                        <a className='text-2xl text-blue-600' target='_blank' href="https://linkedin.com/in/ariful971671"><FaLinkedin /></a>
                     </div>
                 </div>
             </div>
